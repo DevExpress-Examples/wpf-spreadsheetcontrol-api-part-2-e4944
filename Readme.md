@@ -1,3 +1,22 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [BusinessObjects.cs](./CS/SpreadsheetControl_WPF_API_Part02/BusinessObjects.cs) (VB: [BusinessObjects.vb](./VB/SpreadsheetControl_WPF_API_Part02/BusinessObjects.vb))
+* [Groups.cs](./CS/SpreadsheetControl_WPF_API_Part02/Groups.cs) (VB: [Groups.vb](./VB/SpreadsheetControl_WPF_API_Part02/Groups.vb))
+* [MainWindow.xaml](./CS/SpreadsheetControl_WPF_API_Part02/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/SpreadsheetControl_WPF_API_Part02/MainWindow.xaml.vb))
+* [MainWindow.xaml.cs](./CS/SpreadsheetControl_WPF_API_Part02/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/SpreadsheetControl_WPF_API_Part02/MainWindow.xaml.vb))
+* [AutoFilterActions.cs](./CS/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/AutoFilterActions.cs) (VB: [AutoFilterActions.vb](./VB/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/AutoFilterActions.vb))
+* [CustomFunctionActions.cs](./CS/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/CustomFunctionActions.cs) (VB: [CustomFunctionActions.vb](./VB/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/CustomFunctionActions.vb))
+* [DocumentPropertiesActions.cs](./CS/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/DocumentPropertiesActions.cs) (VB: [DocumentPropertiesActions.vb](./VB/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/DocumentPropertiesActions.vb))
+* [ExportActions.cs](./CS/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/ExportActions.cs) (VB: [ExportActions.vb](./VB/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/ExportActions.vb))
+* [GroupAndOutlineActions.cs](./CS/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/GroupAndOutlineActions.cs) (VB: [GroupAndOutlineActions.vb](./VB/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/GroupAndOutlineActions.vb))
+* [ProtectionActions.cs](./CS/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/ProtectionActions.cs) (VB: [ProtectionActions.vb](./VB/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/ProtectionActions.vb))
+* [SearchActions.cs](./CS/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/SearchActions.cs) (VB: [SearchActions.vb](./VB/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/SearchActions.vb))
+* [ShapeActions.cs](./CS/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/ShapeActions.cs) (VB: [ShapeActions.vb](./VB/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/ShapeActions.vb))
+* [SortActions.cs](./CS/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/SortActions.cs) (VB: [SortActions.vb](./VB/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/SortActions.vb))
+* [TableActions.cs](./CS/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/TableActions.cs) (VB: [TableActions.vb](./VB/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/TableActions.vb))
+* [Utils.cs](./CS/SpreadsheetControl_WPF_API_Part02/Utils.cs) (VB: [Utils.vb](./VB/SpreadsheetControl_WPF_API_Part02/Utils.vb))
+<!-- default file list end -->
 # WPF SpreadsheetControl API - Part 2
 
 
