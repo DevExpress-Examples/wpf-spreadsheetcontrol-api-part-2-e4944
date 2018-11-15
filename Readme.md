@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [CustomFunctionActions.cs](./CS/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/CustomFunctionActions.cs) (VB: [CustomFunctionActions.vb](./VB/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/CustomFunctionActions.vb))
+* [ShapeActions.cs](./CS/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/ShapeActions.cs) (VB: [ShapeActions.vb](./VB/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/ShapeActions.vb))
+* [TableActions.cs](./CS/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/TableActions.cs) (VB: [TableActions.vb](./VB/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/TableActions.vb))
+<!-- default file list end -->
 # WPF SpreadsheetControl API - Part 2
 
 
