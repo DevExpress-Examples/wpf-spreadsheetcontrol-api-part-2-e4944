@@ -3,7 +3,7 @@
 
 * [BusinessObjects.cs](./CS/SpreadsheetControl_WPF_API_Part02/BusinessObjects.cs) (VB: [BusinessObjects.vb](./VB/SpreadsheetControl_WPF_API_Part02/BusinessObjects.vb))
 * [Groups.cs](./CS/SpreadsheetControl_WPF_API_Part02/Groups.cs) (VB: [Groups.vb](./VB/SpreadsheetControl_WPF_API_Part02/Groups.vb))
-* [MainWindow.xaml](./CS/SpreadsheetControl_WPF_API_Part02/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/SpreadsheetControl_WPF_API_Part02/MainWindow.xaml.vb))
+* [MainWindow.xaml](./CS/SpreadsheetControl_WPF_API_Part02/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/SpreadsheetControl_WPF_API_Part02/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/SpreadsheetControl_WPF_API_Part02/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/SpreadsheetControl_WPF_API_Part02/MainWindow.xaml.vb))
 * [AutoFilterActions.cs](./CS/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/AutoFilterActions.cs) (VB: [AutoFilterActions.vb](./VB/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/AutoFilterActions.vb))
 * [CustomFunctionActions.cs](./CS/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/CustomFunctionActions.cs) (VB: [CustomFunctionActions.vb](./VB/SpreadsheetControl_WPF_API_Part02/SpreadsheetActions/CustomFunctionActions.vb))
