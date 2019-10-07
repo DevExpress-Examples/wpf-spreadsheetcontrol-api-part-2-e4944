@@ -35,7 +35,7 @@ namespace SpreadsheetControl_WPF_API_Part02
 
                 #region #ApplyFilter
                 // Enable filtering for the specified cell range.
-                Range range = worksheet["B2:E23"];
+                CellRange range = worksheet["B2:E23"];
                 worksheet.AutoFilter.Apply(range);
                 #endregion #ApplyFilter
             }
@@ -53,7 +53,7 @@ namespace SpreadsheetControl_WPF_API_Part02
 
                 #region #FilterSortBySingleColumn
                 // Enable filtering for the specified cell range.
-                Range range = worksheet["B2:E23"];
+                CellRange range = worksheet["B2:E23"];
                 worksheet.AutoFilter.Apply(range);
 
                 // Sort the data in descending order by the first column.
@@ -74,7 +74,7 @@ namespace SpreadsheetControl_WPF_API_Part02
 
                 #region #FilterSortByMultipleColumns
                 // Enable filtering for the specified cell range.
-                Range range = worksheet["B2:E23"];
+                CellRange range = worksheet["B2:E23"];
                 worksheet.AutoFilter.Apply(range);
 
                 // Sort the data in descending order by the first and third columns.
@@ -98,7 +98,7 @@ namespace SpreadsheetControl_WPF_API_Part02
 
                 #region #FilterByCondition
                 // Enable filtering for the specified cell range.
-                Range range = worksheet["B2:E23"];
+                CellRange range = worksheet["B2:E23"];
                 worksheet.AutoFilter.Apply(range);
 
                 // Filter values in the "Sales" column that are in a range from 5000$ to 8000$.
@@ -120,7 +120,7 @@ namespace SpreadsheetControl_WPF_API_Part02
 
                 #region #FilterTextByCondition
                 // Enable filtering for the specified cell range.
-                Range range = worksheet["B2:E23"];
+                CellRange range = worksheet["B2:E23"];
                 worksheet.AutoFilter.Apply(range);
 
                 // Filter values in the "Product" column that contain "Gi" and include empty cells.
@@ -142,7 +142,7 @@ namespace SpreadsheetControl_WPF_API_Part02
 
                 #region #FilterByValue
                 // Enable filtering for the specified cell range.
-                Range range = worksheet["B2:E23"];
+                CellRange range = worksheet["B2:E23"];
                 worksheet.AutoFilter.Apply(range);
 
                 // Filter the data in the "Product" column by a specific value.
@@ -163,7 +163,7 @@ namespace SpreadsheetControl_WPF_API_Part02
 
                 #region #FilterByValues
                 // Enable filtering for the specified cell range.
-                Range range = worksheet["B2:E23"];
+                CellRange range = worksheet["B2:E23"];
                 worksheet.AutoFilter.Apply(range);
 
                 // Filter the data in the "Product" column by an array of values.
@@ -184,7 +184,7 @@ namespace SpreadsheetControl_WPF_API_Part02
 
                 #region #FilterDatesByCondition
                 // Enable filtering for the specified cell range.
-                Range range = worksheet["B2:E23"];
+                CellRange range = worksheet["B2:E23"];
                 worksheet.AutoFilter.Apply(range);
 
                 // Filter values in the "Reported Date" column to display dates that are between June 1, 2014 and February 1, 2015.
@@ -205,7 +205,7 @@ namespace SpreadsheetControl_WPF_API_Part02
 
                 #region #FilterMixedDataTypesByValues
                 // Enable filtering for the specified cell range.
-                Range range = worksheet["B2:E23"];
+                CellRange range = worksheet["B2:E23"];
                 worksheet.AutoFilter.Apply(range);
                 // Create date grouping item to filter January 2015 dates.
                 IList<DateGrouping> groupings = new List<DateGrouping>();
@@ -230,7 +230,7 @@ namespace SpreadsheetControl_WPF_API_Part02
 
                 #region #Top10Filter
                 // Enable filtering for the specified cell range.
-                Range range = worksheet["B2:E23"];
+                CellRange range = worksheet["B2:E23"];
                 worksheet.AutoFilter.Apply(range);
 
                 // Apply a filter to the "Sales" column to display the top ten values.
@@ -251,7 +251,7 @@ namespace SpreadsheetControl_WPF_API_Part02
 
                 #region #DynamicFilter
                 // Enable filtering for the specified cell range.
-                Range range = worksheet["B2:E23"];
+                CellRange range = worksheet["B2:E23"];
                 worksheet.AutoFilter.Apply(range);
 
                 // Apply a dynamic filter to the "Sales" column to display only values that are above the average.
@@ -274,7 +274,7 @@ namespace SpreadsheetControl_WPF_API_Part02
 
                 #region #ReapplyFilter
                 // Enable filtering for the specified cell range.
-                Range range = worksheet["B2:E23"];
+                CellRange range = worksheet["B2:E23"];
                 worksheet.AutoFilter.Apply(range);
 
                 // Filter values in the "Sales" column that are greater than 5000$.
@@ -299,7 +299,7 @@ namespace SpreadsheetControl_WPF_API_Part02
 
                 #region #ClearFilter
                 // Enable filtering for the specified cell range.
-                Range range = worksheet["B2:E23"];
+                CellRange range = worksheet["B2:E23"];
                 worksheet.AutoFilter.Apply(range);
 
                 // Filter values in the "Sales" column that are greater than 5000$.
@@ -323,7 +323,7 @@ namespace SpreadsheetControl_WPF_API_Part02
 
                 #region #DisableFilter
                 // Enable filtering for the specified cell range.
-                Range range = worksheet["B2:E23"];
+                CellRange range = worksheet["B2:E23"];
                 worksheet.AutoFilter.Apply(range);
 
                 // Disable filtering for the entire worksheet.

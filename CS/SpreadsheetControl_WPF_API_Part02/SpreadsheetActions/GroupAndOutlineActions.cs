@@ -122,8 +122,8 @@ namespace SpreadsheetControl_WPF_API_Part02
                     Worksheet worksheet = workbook.Worksheets["Regional Sales"];
                     workbook.Worksheets.ActiveWorksheet = worksheet;
 
-                    #region #Subtotal
-                    Range dataRange = worksheet["B3:E23"];
+                #region #Subtotal
+                    CellRange dataRange = worksheet["B3:E23"];
                     // Specify that subtotals should be calculated for the column "D". 
                     List<int> subtotalColumnsList = new List<int>();
                     subtotalColumnsList.Add(3);

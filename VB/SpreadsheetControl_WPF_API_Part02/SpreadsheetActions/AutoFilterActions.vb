@@ -29,9 +29,9 @@ Namespace SpreadsheetControl_WPF_API_Part02
                 Dim worksheet As Worksheet = workbook.Worksheets("Regional sales")
                 workbook.Worksheets.ActiveWorksheet = worksheet
 
-'                #Region "#ApplyFilter"
+                '                #Region "#ApplyFilter"
                 ' Enable filtering for the specified cell range.
-                Dim range As Range = worksheet("B2:E23")
+                Dim range As CellRange = worksheet("B2:E23")
                 worksheet.AutoFilter.Apply(range)
 '                #End Region ' #ApplyFilter
             Finally
@@ -46,9 +46,9 @@ Namespace SpreadsheetControl_WPF_API_Part02
                 Dim worksheet As Worksheet = workbook.Worksheets("Regional sales")
                 workbook.Worksheets.ActiveWorksheet = worksheet
 
-'                #Region "#FilterSortBySingleColumn"
+                '                #Region "#FilterSortBySingleColumn"
                 ' Enable filtering for the specified cell range.
-                Dim range As Range = worksheet("B2:E23")
+                Dim range As CellRange = worksheet("B2:E23")
                 worksheet.AutoFilter.Apply(range)
 
                 ' Sort the data in descending order by the first column.
@@ -66,9 +66,9 @@ Namespace SpreadsheetControl_WPF_API_Part02
                 Dim worksheet As Worksheet = workbook.Worksheets("Regional sales")
                 workbook.Worksheets.ActiveWorksheet = worksheet
 
-'                #Region "#FilterSortByMultipleColumns"
+                '                #Region "#FilterSortByMultipleColumns"
                 ' Enable filtering for the specified cell range.
-                Dim range As Range = worksheet("B2:E23")
+                Dim range As CellRange = worksheet("B2:E23")
                 worksheet.AutoFilter.Apply(range)
 
                 ' Sort the data in descending order by the first and third columns.
@@ -89,9 +89,9 @@ Namespace SpreadsheetControl_WPF_API_Part02
                 Dim worksheet As Worksheet = workbook.Worksheets("Regional sales")
                 workbook.Worksheets.ActiveWorksheet = worksheet
 
-'                #Region "#FilterByCondition"
+                '                #Region "#FilterByCondition"
                 ' Enable filtering for the specified cell range.
-                Dim range As Range = worksheet("B2:E23")
+                Dim range As CellRange = worksheet("B2:E23")
                 worksheet.AutoFilter.Apply(range)
 
                 ' Filter values in the "Sales" column that are in a range from 5000$ to 8000$.
@@ -110,9 +110,9 @@ Namespace SpreadsheetControl_WPF_API_Part02
                 Dim worksheet As Worksheet = workbook.Worksheets("Regional sales")
                 workbook.Worksheets.ActiveWorksheet = worksheet
 
-'                #Region "#FilterTextByCondition"
+                '                #Region "#FilterTextByCondition"
                 ' Enable filtering for the specified cell range.
-                Dim range As Range = worksheet("B2:E23")
+                Dim range As CellRange = worksheet("B2:E23")
                 worksheet.AutoFilter.Apply(range)
 
                 ' Filter values in the "Product" column that contain "Gi" and include empty cells.
@@ -131,9 +131,9 @@ Namespace SpreadsheetControl_WPF_API_Part02
                 Dim worksheet As Worksheet = workbook.Worksheets("Regional sales")
                 workbook.Worksheets.ActiveWorksheet = worksheet
 
-'                #Region "#FilterByValue"
+                '                #Region "#FilterByValue"
                 ' Enable filtering for the specified cell range.
-                Dim range As Range = worksheet("B2:E23")
+                Dim range As CellRange = worksheet("B2:E23")
                 worksheet.AutoFilter.Apply(range)
 
                 ' Filter the data in the "Product" column by a specific value.
@@ -151,9 +151,9 @@ Namespace SpreadsheetControl_WPF_API_Part02
                 Dim worksheet As Worksheet = workbook.Worksheets("Regional sales")
                 workbook.Worksheets.ActiveWorksheet = worksheet
 
-'                #Region "#FilterByValues"
+                '                #Region "#FilterByValues"
                 ' Enable filtering for the specified cell range.
-                Dim range As Range = worksheet("B2:E23")
+                Dim range As CellRange = worksheet("B2:E23")
                 worksheet.AutoFilter.Apply(range)
 
                 ' Filter the data in the "Product" column by an array of values.
@@ -171,9 +171,9 @@ Namespace SpreadsheetControl_WPF_API_Part02
                 Dim worksheet As Worksheet = workbook.Worksheets("Regional sales")
                 workbook.Worksheets.ActiveWorksheet = worksheet
 
-'                #Region "#FilterDatesByCondition"
+                '                #Region "#FilterDatesByCondition"
                 ' Enable filtering for the specified cell range.
-                Dim range As Range = worksheet("B2:E23")
+                Dim range As CellRange = worksheet("B2:E23")
                 worksheet.AutoFilter.Apply(range)
 
                 ' Filter values in the "Reported Date" column to display dates that are between June 1, 2014 and February 1, 2015.
@@ -191,9 +191,9 @@ Namespace SpreadsheetControl_WPF_API_Part02
                 Dim worksheet As Worksheet = workbook.Worksheets("Regional sales")
                 workbook.Worksheets.ActiveWorksheet = worksheet
 
-'                #Region "#FilterMixedDataTypesByValues"
+                '                #Region "#FilterMixedDataTypesByValues"
                 ' Enable filtering for the specified cell range.
-                Dim range As Range = worksheet("B2:E23")
+                Dim range As CellRange = worksheet("B2:E23")
                 worksheet.AutoFilter.Apply(range)
                 ' Create date grouping item to filter January 2015 dates.
                 Dim groupings As IList(Of DateGrouping) = New List(Of DateGrouping)()
@@ -215,9 +215,9 @@ Namespace SpreadsheetControl_WPF_API_Part02
                 Dim worksheet As Worksheet = workbook.Worksheets("Regional sales")
                 workbook.Worksheets.ActiveWorksheet = worksheet
 
-'                #Region "#Top10Filter"
+                '                #Region "#Top10Filter"
                 ' Enable filtering for the specified cell range.
-                Dim range As Range = worksheet("B2:E23")
+                Dim range As CellRange = worksheet("B2:E23")
                 worksheet.AutoFilter.Apply(range)
 
                 ' Apply a filter to the "Sales" column to display the top ten values.
@@ -235,9 +235,9 @@ Namespace SpreadsheetControl_WPF_API_Part02
                 Dim worksheet As Worksheet = workbook.Worksheets("Regional sales")
                 workbook.Worksheets.ActiveWorksheet = worksheet
 
-'                #Region "#DynamicFilter"
+                '                #Region "#DynamicFilter"
                 ' Enable filtering for the specified cell range.
-                Dim range As Range = worksheet("B2:E23")
+                Dim range As CellRange = worksheet("B2:E23")
                 worksheet.AutoFilter.Apply(range)
 
                 ' Apply a dynamic filter to the "Sales" column to display only values that are above the average.
@@ -257,9 +257,9 @@ Namespace SpreadsheetControl_WPF_API_Part02
                 Dim worksheet As Worksheet = workbook.Worksheets("Regional sales")
                 workbook.Worksheets.ActiveWorksheet = worksheet
 
-'                #Region "#ReapplyFilter"
+                '                #Region "#ReapplyFilter"
                 ' Enable filtering for the specified cell range.
-                Dim range As Range = worksheet("B2:E23")
+                Dim range As CellRange = worksheet("B2:E23")
                 worksheet.AutoFilter.Apply(range)
 
                 ' Filter values in the "Sales" column that are greater than 5000$.
@@ -281,9 +281,9 @@ Namespace SpreadsheetControl_WPF_API_Part02
                 Dim worksheet As Worksheet = workbook.Worksheets("Regional sales")
                 workbook.Worksheets.ActiveWorksheet = worksheet
 
-'                #Region "#ClearFilter"
+                '                #Region "#ClearFilter"
                 ' Enable filtering for the specified cell range.
-                Dim range As Range = worksheet("B2:E23")
+                Dim range As CellRange = worksheet("B2:E23")
                 worksheet.AutoFilter.Apply(range)
 
                 ' Filter values in the "Sales" column that are greater than 5000$.
@@ -304,9 +304,9 @@ Namespace SpreadsheetControl_WPF_API_Part02
                 Dim worksheet As Worksheet = workbook.Worksheets("Regional sales")
                 workbook.Worksheets.ActiveWorksheet = worksheet
 
-'                #Region "#DisableFilter"
+                '                #Region "#DisableFilter"
                 ' Enable filtering for the specified cell range.
-                Dim range As Range = worksheet("B2:E23")
+                Dim range As CellRange = worksheet("B2:E23")
                 worksheet.AutoFilter.Apply(range)
 
                 ' Disable filtering for the entire worksheet.
